@@ -1,0 +1,32 @@
+1)select title from books;
+
+2)select * from authors;
+
+3)select * from users;
+
+4)select * from borrowed_books;
+
+5)select * from borrowed_books where user_id=5;
+
+6)select * from books where author_id=3;
+
+7)select quantity from books where book_id=4;
+
+8)insert into books values(7,'python',5,'James','1998-06-09',20);
+
+9)update books set quantity=30 where book_id=2;
+
+10) delete from books where book_id=7;
+
+11)insert into users values(7,"james","Robert","james123@gmail.com","password7");
+
+12)update users set password="james@123" where user_id=7;
+
+13)delete from users where user_id=7;
+
+14)ALTER TABLE books ADD status ENUM('available', 'borrowed') DEFAULT 'available';
+   UPDATE books SET status = 'borrowed' WHERE book_id = 1;
+
+15)UPDATE borrowed_books
+SET returned_date = CURRENT_DATE
+WHERE book_id = 1 AND user_id = 1;

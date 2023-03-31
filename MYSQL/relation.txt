@@ -1,0 +1,30 @@
+1)-------------ACTOR table-----------------
+    actor_id=Primarykey(Unique and not null)
+    first_name
+    last_name
+    last_update(Timestamp datatype)
+
+2)-------------Address table----------------
+    address_id=Primarykey(Unique and not null)
+    address
+    addrees2
+    district
+    city_id=Foreihn Key(Taking reference from City table)
+    district
+    postal_code
+    location
+    phone
+    last_update(Timestamp datatype)
+
+3)-----------------Category table------------------
+    Category_id=Primarykey(Unique and not null)
+    name
+    last_update(Timestamp datatype)
+
+4)------------------City table---------------
+    city_id=Primarykey(unique and not null)
+    
+
+
+
+    
