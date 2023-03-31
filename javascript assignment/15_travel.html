@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travel Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="15style.css">
+  </head>
+  <body>
+    <h1>Travel Website</h1>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <h1>Find Your Next Adventure</h1>
+      <h2>click below to see the popular places</h2>
+      <button id="explore-btn">Popular places</button>
+    </section>
+    <section class="destinations">
+      <h2>Popular Destinations</h2>
+      <div class="destination">
+        <img src="newyork.jpg" alt="New York City" width="100px" height="100px">
+        <h3>New York City</h3>
+        <p>Discover the city that never sleeps.</p>
+      </div>
+      <div class="destination">
+        <img src="paris.jpg" alt="Paris" width="100px" height="100px">
+        <h3>Paris</h3>
+        <p>Feel the experience of the City of Light.</p>
+      </div>
+      <div class="destination">
+        <img src="singapore.jpg" alt="Singapore" width="100px" height="100px">
+        <h3>Singapore</h3>
+        <p>Explore the vibrant streets of Singapore.</p>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2023 Travel Website</p>
+    </footer>
+
+    <script >
+        document.getElementById("explore-btn").addEventListener("click",myfun);
+        function myfun(){
+            alert("1)Chennai 2)Switzerweland 3)Kolkotta 4)Uk  5)Canada  6)Africa 7)China  8)Thailand 9)Holland 10)Singapore ")
+        }
+    </script>
+  </body>
+</html>
