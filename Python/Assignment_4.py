@@ -1,0 +1,6 @@
+string=input("Please Enter any string: ")
+print(f"The length of the string is: {len(string)}")
+print(f"First character: {string[-5]}")
+print(f"Last character:  {string[-1]}")
+# print(f"Reverse string: {string.Reverse}")
+print(f"Reverse string: {string[::-1]}")
