@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My JavaScript Program</title>
+  </head>
+  <body>
+    <h2>To check prime or not</h2>
+    <script>
+        //to check whether the the number is prime or not
+
+function Prime(num) {
+  if (num < 2) {
+    console.log(num+" is not a prime number");
+  }
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      console.log(num+" is not a prime number");
+    }
+  }
+  console.log(num+" is a prime number");
+}
+console.log(Prime(7));
+console.log(Prime(11));
+
+    
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Form</h1>
+    <form>
+        first name:<input type="text" id="fname"><br><br>
+        last name:<input type="text" id="lname"><br><br>
+        email address:<input type="text" id="email"><br><br>
+        Password:<input type="text" id="password"><br><br>
+        <button id="submit">Submit</button>
+        <button id="reset">Reset</button>
+      </form>
+
+<script>
+    document.getElementById("submit").addEventListener("click",myfunc);
+    function myfunc(){
+        alert("submitted successfully")
+
+    }
+    document.getElementById("reset").addEventListener("click",myfunc1);
+    function myfunc1(){
+        alert("Reset successfully done")
+
+    }
+
+</script>
+
+</body>
+</html>

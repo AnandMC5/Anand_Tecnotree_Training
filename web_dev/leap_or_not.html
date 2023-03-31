@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My JavaScript Program</title>
+  </head>
+  <body>
+    <h2>To check whether it is a leap year or not</h2>
+    <script>
+    
+   let year = 2024; // replace with any year you want to check
+
+  if (year % 4 === 0) {
+  if (year % 100 === 0) {
+    if (year % 400 === 0) {
+      console.log(year + ' is a leap year');
+    } else {
+      console.log(year + ' is not a leap year');
+    }
+  } else {
+    console.log(year + ' is a leap year');
+  }
+} else {
+  console.log(year + ' is not a leap year');
+}
+
+
+
+</script>
+  </body>
+</html>

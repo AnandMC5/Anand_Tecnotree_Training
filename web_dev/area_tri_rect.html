@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My JavaScript Program</title>
+  </head>
+  <body>
+    <h2>Triangle area and Rectangle Area</h2>
+    <script>
+       // Function to calculate the area of a rectangle
+function RectArea(width, height) {
+  return width * height;
+}
+
+// Function to calculate the area of a triangle
+function TriArea(base, height) {
+  return 0.5 * base * height;
+}
+
+let rectWidth = 20;
+let rectHeight = 30;
+let rectArea = RectArea(rectWidth, rectHeight);
+console.log("The area of the rectangle " + rectArea);
+
+let triBase = 15;
+let triHeight =37;
+let triArea = TriArea(triBase, triHeight);
+console.log("The area of the triangle is"+ triArea);
+
+    </script>
+  </body>
+</html>

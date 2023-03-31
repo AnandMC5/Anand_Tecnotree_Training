@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.light-gray {
+  background-color: lightgray;
+  color: lightgray;
+}
+</style>
+</head>
+<body>
+
+<h2>Toggle white and lightgray</h2>
+<p>Click the button to toggle between white and light gray for this page.</p>
+
+<button onclick="myFunction()">Toggle white or light</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("light-gray");
+}
+</script>
+
+</body>
+</html>
+
