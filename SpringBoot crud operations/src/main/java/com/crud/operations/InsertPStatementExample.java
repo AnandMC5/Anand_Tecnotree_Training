@@ -25,7 +25,7 @@ public class InsertPStatementExample {
         System.out.println(INSERT_USERS_SQL);
         // Step 1: Establishing a Connection
         try (Connection connection = DriverManager
-            .getConnection("jdbc:mysql://localhost:3306/java_demo?useSSL=false", "root", "aleen786");
+            .getConnection("jdbc:mysql://localhost:3306/java_demo?useSSL=false", "root", "anand@123");
 
             // Step 2:Create a statement using connection object
             PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USERS_SQL)) {
