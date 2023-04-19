@@ -24,7 +24,7 @@ public class UpdatePStatementExample {
         System.out.println(UPDATE_USERS_SQL);
         // Step 1: Establishing a Connection
         try (Connection connection = DriverManager
-            .getConnection("jdbc:mysql://localhost:3306/java_demo?useSSL=false", "root", "anand123");
+            .getConnection("jdbc:mysql://localhost:3306/java_demo?useSSL=false", "root", "anand@123");
 
             // Step 2:Create a statement using connection object
             PreparedStatement preparedStatement = connection.prepareStatement(UPDATE_USERS_SQL)) {
